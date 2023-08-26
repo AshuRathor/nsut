@@ -1,0 +1,20 @@
+.minCardImg {
+    overflow: hidden;
+    height: 150px;
+    width: 250px;
+}
+.minCardImg img{
+    width: 100%;
+    padding: 4%;
+}
+
+.mCard{
+    background-color: #555;
+    width: 30%;
+    border-radius:10px ;
+}
+
+.miniCardWrittenSection{
+    color: white;
+    padding: 6%;
+}

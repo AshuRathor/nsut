@@ -1,0 +1,12 @@
+.eventSectionInside{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 70%;
+    /* padding: 0% 10%; */
+    flex-wrap: wrap;
+}
+.eventSection{
+    display: flex;
+    justify-content: center;
+}

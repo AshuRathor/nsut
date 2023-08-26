@@ -1,0 +1,67 @@
+.carouselBox{
+    height: 70vh;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contentSection{
+    display: flex;
+    justify-content: center;
+    width: 67%;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+}
+.carouselContent{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 65vh;
+    position: absolute;
+    
+    
+    
+}
+.carouselContent:nth-child(2) {
+    
+    left: 100%;
+  }
+  .carouselContent:nth-child(3) {
+    
+    left: 200%;
+  }
+  .carouselContent:nth-child(4) {
+    
+    left: 300%;
+  }
+
+  
+.carouselLeftSide{
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+
+.carouselCircle{
+    background-color: #222;
+    height: 12px;
+    width: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.carouselBorder{
+    border: 3px solid #777;
+}
+.carouselSlider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
